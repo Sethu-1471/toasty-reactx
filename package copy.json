@@ -1,0 +1,21 @@
+{
+  "name": "react-domage",
+  "version": "1.1.4",
+  "description": "DOM Element Curd Operation!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "DOM",
+    "Javascript",
+    "Frontend"
+  ],
+  "author": "Sethupathi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3"
+  }
+}
