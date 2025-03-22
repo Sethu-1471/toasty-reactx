@@ -1,4 +1,4 @@
-# ToastyReact
+# toasty-reactx
 
 A minimal, customizable toast notification system for React applications.
 
@@ -13,17 +13,17 @@ A minimal, customizable toast notification system for React applications.
 
 ```bash
 # Using npm
-npm install ToastyReact
+npm install toasty-reactx
 
 # Using yarn
-yarn add ToastyReact
+yarn add toasty-reactx
 ```
 
 ## Basic Usage
 
 ```jsx
 import React from "react";
-import { ToastProvider, ToastContainer, useToast } from "ToastyReact";
+import { ToastProvider, ToastContainer, useToast } from "toasty-reactx";
 
 // Wrap your app with ToastProvider
 function App() {

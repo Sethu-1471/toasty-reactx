@@ -1,12 +1,24 @@
 {
-  "name": "ToastyReact",
-  "version": "1.8.0",
+  "name": "toasty-reactx",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sethu-1471/toasty-reactx"
+  },
+  "homepage": "https://github.com/Sethu-1471/toasty-reactx#readme",
+  "bugs": {
+    "url": "https://github.com/Sethu-1471/toasty-reactx/issues"
+  },
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -17,11 +29,12 @@
     "Toasty",
     "React",
     "Popup",
-    "SnackBar"
+    "SnackBar",
+    "toast-notifications"
   ],
   "author": "Sethupathi",
   "license": "ISC",
-  "description": "",
+  "description": "A lightweight, customizable toast notification system for React applications.",
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "react-redux": "^9.2.0"
